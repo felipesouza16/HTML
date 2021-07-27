@@ -6,28 +6,31 @@ table{
 }
 table thead{
     background: #006969;
-    color: #fff;
+    color: #000266;
     text-transform: uppercase;
-    height: 40px;
+    height: 30px;
 }
 table thead tr th{
     text-align: left;
-    padding-left: 15px;
+    padding-left: 70px;
 }
 table tbody tr{
-    height: 40px;
+    height: 35px;
 }
 table tr:nth-child(odd) td{
-    background-color: #e2e2e2;
+    background-color: #ada9a9;
 }
 table tbody tr td{
-    padding-left: 15px;
+    padding-left: 19px;
     color: #006969;
 }
 .id{
-    width: 50px;
+    width: 40px;
 }
 .valor{
+    width: 100px;
+}
+.nome{
     width: 100px;
 }
 .opcoes{
@@ -43,7 +46,6 @@ table tbody tr td{
 }
 .opcoes  .editar:hover{
     color: #FFF;
-    /* border:1px solid #ccb800; */
     background: #ccb800;
 }
 .opcoes .excluir{
