@@ -6,9 +6,11 @@ mostrarnome();
 function cliqueaqui(){
     alert('Parabéns, você sabe clicar!');
 }
-function soma(a,b){
-    let adicao = a+b;
-    console.log(`O valor da adição é ${adicao}`)
+function soma(){
+    var s1 = parseInt(document.getElementById('soma1').value);
+    var s2 = parseInt(document.getElementById('soma2').value);
+    s3 = s1+s2;
+    console.log(`O valor da adição é ${s3}`)
 }
 function link(){
     let elemento = document.getElementById('div1')
