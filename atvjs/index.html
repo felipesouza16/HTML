@@ -7,26 +7,14 @@
     <title>ATV 1</title>
 </head>
 <body>
-    <h1>Marcas</h1>
-    <label for="id">ID:</label><input type="number" name="id" id="id" style=margin:5px><br/>
-    <label for="nome">Nome:</label><input type="text" name="nome" id="nome"style=margin:5px><br/>
-    <label for="desc">Descrição</label><input type="text" name="desc" id="desc"style=margin:5px><br/>
-    <label for="pais">País de origem:</label><input type="text" name="pais" id="pais"style=margin:5px><br/>
-    <button onclick="salvar()">Salvar</button>
-    <div>
-        <table id="tabela-marcas">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nome</th>
-                    <th>Descrição</th>
-                    <th>País de Origem</th>
-                </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
-        </table>
+    <div style="margin: auto 30px;">
+        <h1>Marcas</h1>
+        <label for="id">ID:</label><input type="number" name="id" id="id" style=margin:5px><br/>
+        <label for="nome">Nome:</label><input type="text" name="nome" id="nome"style=margin:5px><br/>
+        <label for="desc">Descrição</label><input type="text" name="desc" id="desc"style=margin:5px><br/>
+        <label for="pais">País de origem:</label><input type="text" name="pais" id="pais"style=margin:5px><br/>
+        <button><a href="listar.html" style="text-decoration: none; color:black">LISTAR</a></button>
+        <button onclick="salvar()" style="margin:35px 150px">SALVAR</button>
     </div>
     <script src="index.js"></script>
 </body>
