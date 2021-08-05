@@ -1,0 +1,26 @@
+﻿@model List<WebMVC.Models.Vacinas>
+@{
+    ViewBag.Title = "Listar";
+}
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>VALOR</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Nome</td>
+            <td>@item.Valor</td>
+            <td><a href="Home/" class="btn btn-warning">Editar</a> </td>
+            <td><a href="/Home/Excluir/@item.Id" class="btn btn-danger">Excrui</a> </td>
+        </tr>
+        }
+       
+    </tbody>
+</table>

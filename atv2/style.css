@@ -51,6 +51,7 @@ body{
     text-transform: uppercase;  
     padding: 5px 10px;
     color: #5e505c;
+    cursor: pointer;
 }
 #menu-principal ul li a:hover{
     color: #fff;
@@ -70,17 +71,16 @@ img{
     width: 100px;
 }
 .inputs{
-
-    color:#f00;
-    display: inline-block;
-    text-align: end;
+    margin-top: 25px;
+    color:rgb(17, 15, 15);
+    text-align: right;
     margin-right: 40%;
 }
 #cadastro{
-    margin: 30px 25%;
-    width: 70%;
-    height: 500px;
-    border: 2px solid #f00;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f00;
+    text-align: center;
 }
 button{
     display: block;
@@ -88,7 +88,24 @@ button{
     margin: auto;
     margin-top: 10px;
 }
-form{
-    display: flex;
-    flex-direction: column;
+#nome1, #valor1, #pais1{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#salvar{
+    border-radius: 5px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+#botao{
+    text-align: left;
+    margin-top:20px;
+    margin-right: 20px;
+}
+#div{
+   margin-top: 100px;
 }
